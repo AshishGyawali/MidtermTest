@@ -377,6 +377,16 @@
             "related": ".xml"
           }
         }
+      },
+      "LaptopDiscount/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/LaptopDiscount.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LaptopDiscount.dll": {}
+        }
       }
     }
   },
@@ -969,10 +979,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "LaptopDiscount/1.0.0": {
+      "type": "project",
+      "path": "../LaptopDiscount/LaptopDiscount.csproj",
+      "msbuildProject": "../LaptopDiscount/LaptopDiscount.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "LaptopDiscount >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.7.1",
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.6.1",
@@ -1004,7 +1020,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/ashishgyawali/Projects/LaptopDiscount/LaptopDiscount/LaptopDiscount.csproj": {
+              "projectPath": "/Users/ashishgyawali/Projects/LaptopDiscount/LaptopDiscount/LaptopDiscount.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,0 +1,14 @@
+/Users/ashishgyawali/Projects/LaptopDiscount/LaptopDiscount/bin/Debug/net7.0/LaptopDiscount
+/Users/ashishgyawali/Projects/LaptopDiscount/LaptopDiscount/bin/Debug/net7.0/LaptopDiscount.deps.json
+/Users/ashishgyawali/Projects/LaptopDiscount/LaptopDiscount/bin/Debug/net7.0/LaptopDiscount.runtimeconfig.json
+/Users/ashishgyawali/Projects/LaptopDiscount/LaptopDiscount/bin/Debug/net7.0/LaptopDiscount.dll
+/Users/ashishgyawali/Projects/LaptopDiscount/LaptopDiscount/bin/Debug/net7.0/LaptopDiscount.pdb
+/Users/ashishgyawali/Projects/LaptopDiscount/LaptopDiscount/obj/Debug/net7.0/LaptopDiscount.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ashishgyawali/Projects/LaptopDiscount/LaptopDiscount/obj/Debug/net7.0/LaptopDiscount.AssemblyInfoInputs.cache
+/Users/ashishgyawali/Projects/LaptopDiscount/LaptopDiscount/obj/Debug/net7.0/LaptopDiscount.AssemblyInfo.cs
+/Users/ashishgyawali/Projects/LaptopDiscount/LaptopDiscount/obj/Debug/net7.0/LaptopDiscount.csproj.CoreCompileInputs.cache
+/Users/ashishgyawali/Projects/LaptopDiscount/LaptopDiscount/obj/Debug/net7.0/LaptopDiscount.dll
+/Users/ashishgyawali/Projects/LaptopDiscount/LaptopDiscount/obj/Debug/net7.0/refint/LaptopDiscount.dll
+/Users/ashishgyawali/Projects/LaptopDiscount/LaptopDiscount/obj/Debug/net7.0/LaptopDiscount.pdb
+/Users/ashishgyawali/Projects/LaptopDiscount/LaptopDiscount/obj/Debug/net7.0/LaptopDiscount.genruntimeconfig.cache
+/Users/ashishgyawali/Projects/LaptopDiscount/LaptopDiscount/obj/Debug/net7.0/ref/LaptopDiscount.dll
