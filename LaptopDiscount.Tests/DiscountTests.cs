@@ -18,7 +18,7 @@ namespace LaptopDiscount.Tests
             // Arrange
             _employeeDiscount.EmployeeType = EmployeeType.PartTime;
             _employeeDiscount.Price = 100m;
-            var expectedPrice = 100m; // No discount for PartTime
+            var expectedPrice = 100m; // for 0%
 
             // Act
             var actualPrice = _employeeDiscount.CalculateDiscountedPrice();
@@ -33,7 +33,7 @@ namespace LaptopDiscount.Tests
             // Arrange
             _employeeDiscount.EmployeeType = EmployeeType.PartialLoad;
             _employeeDiscount.Price = 100m;
-            var expectedPrice = 95m; // 5% discount
+            var expectedPrice = 95m; // for 5%
 
             // Act
             var actualPrice = _employeeDiscount.CalculateDiscountedPrice();
@@ -48,7 +48,7 @@ namespace LaptopDiscount.Tests
             // Arrange
             _employeeDiscount.EmployeeType = EmployeeType.FullTime;
             _employeeDiscount.Price = 100m;
-            var expectedPrice = 90m; // 10% discount
+            var expectedPrice = 90m; // for 10%
 
             // Act
             var actualPrice = _employeeDiscount.CalculateDiscountedPrice();
@@ -63,7 +63,7 @@ namespace LaptopDiscount.Tests
             // Arrange
             _employeeDiscount.EmployeeType = EmployeeType.CompanyPurchasing;
             _employeeDiscount.Price = 100m;
-            var expectedPrice = 80m; // 20% discount
+            var expectedPrice = 80m; // for 20%
 
             // Act
             var actualPrice = _employeeDiscount.CalculateDiscountedPrice();
@@ -78,7 +78,7 @@ namespace LaptopDiscount.Tests
             // Arrange
             _employeeDiscount.EmployeeType = EmployeeType.FullTime;
             _employeeDiscount.Price = 1000m;
-            var expectedPrice = 900m; // 10% discount on a high price
+            var expectedPrice = 900m; // 10% discount for higher priced items.
 
             // Act
             var actualPrice = _employeeDiscount.CalculateDiscountedPrice();
@@ -93,7 +93,7 @@ namespace LaptopDiscount.Tests
             // Arrange
             _employeeDiscount.EmployeeType = EmployeeType.PartTime;
             _employeeDiscount.Price = 0m;
-            var expectedPrice = 0m; // No discount on zero price
+            var expectedPrice = 0m; // 0% discount when price is 0 or less
 
             // Act
             var actualPrice = _employeeDiscount.CalculateDiscountedPrice();
